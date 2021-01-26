@@ -10,7 +10,7 @@ public class Main {
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter("output"));
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 100; i++) {
                 bw.write("Hello World");
                 bw.newLine();
             }
